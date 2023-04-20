@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirana Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Images1/logo.png" alt="KiranaShop.com">
+        </div>
+        <ul>
+            <li class="item1"><a href="#">Home</a></li>
+            <li class="item2"><a href="#">Services</a></li>
+            <li class="item3"><a href="#">About Us</a></li>
+            <li class="item4"><a href="#">Contact Us</a></li>
+        </ul>
+        <div id="nav-right">
+            <div class="search-box">
+                <img src="Images1/search.png">
+                <input type="text" placeholder="Search for products, brands and more">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="Images1/Vasu.jpg">
+            </div>
+        </div>
+    <!-- ------dropdown-settings-menu--------- -->
+    
+    <div class="settings-menu">
+        <div id="dark-btn">
+            <span></span>
+        </div>
+        <div class="settings-menu-inner">
+            <div class="user-profile">
+                <img src="Images1/Vasu.jpg">
+                <div>
+                    <p>Vasu  Agrawal</p>
+                    <a href="index.html">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="Images1/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="index.html">Help us improve the new deisgn</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-links">
+                <img src="Images1/setting.png" class="settings-icon">
+                <a href="">Settings & Privacy <img src="Images1/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="Images1/help.png" class="settings-icon">
+                <a href="">Help & Support <img src="Images1/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="Images1/display.png" class="settings-icon">
+                <a href="">Display & Accessibility <img src="Images1/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="Images1/logout.png" class="settings-icon">
+                <a href="">Logout <img src="Images1/arrow.png" width="10px"></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <section id="home">
+        
+       <h1 class="h-primary">Welcome to Our Store</h1>
+    </section>
+    <div id="back"> 
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+              <img src="images/7.jpg" alt="KiranaShop.com">
+              <div class="overlay">
+                <h2 class="h-secondary center">Household Care</h2>  
+              </div>
+            </div>
+            <div class="box">
+                <img src="images/8.jpg" alt="KiranaShop.com">
+                <div class="overlay">
+                    <h2 class="h-secondary center">Spices</h2>
+                </div>
+              </div>
+              <div class="box">
+                <img src="images/9.jpg" alt="KiranaShop.com">
+                <div class="overlay">
+                    <h2 class="h-secondary center">Dry Fruits</h2>  
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="services-container">
+        <div id="services">
+            <div class="box">
+              <img src="images/3.jpg" alt="KiranaShop.com">
+              <div class="overlay">
+                <h2 class="h-secondary center">Pulses</h2>  
+              </div>
+            </div>
+            <div class="box">
+                <img src="images/6.jpg" alt="KiranaShop.com">
+                <div class="overlay">
+                    <h2 class="h-secondary center">Snacks and Beverages</h2>
+                </div>
+              </div>
+              <div class="box">
+                <img src="images/10.jpg" alt="KiranaShop.com">
+                <div class="overlay">
+                    <h2 class="h-secondary center">Packaged Food</h2>  
+                </div>
+              </div>
+        </div>
+    </section>
+</div>
+<section id="client-section">
+<h1 class="h-primary center">Our Clients</h1>
+<div id="clients">
+    <div class="client-item">
+        <img src="Images1/client1.jpg" alt="Our Client">
+    </div>
+    <div class="client-item">
+        <img src="Images1/client2.jpg" alt="Our Client">
+    </div>
+    <div class="client-item">
+        <img src="Images1/client3.jpg" alt="Our Client">
+    </div>
+    <div class="client-item">
+        <img src="Images1/client4.jpg" alt="Our Client">
+    </div>
+    </div>
+</div>
+</section>
+<section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+        <form action="">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name"
+              placeholder="Enter your name">  
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" name="name" id="email"
+                placeholder="Enter your mail">  
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone No.:</label>
+                <input type="phone" name="name" id="phone"
+                placeholder="xxxxxxxxxx">  
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea name="message" name="name" id="message"
+                cols="30" rows="10">
+                </textarea>  
+              </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="center">
+      Copyright &copy; www.My_Shop.com. All rights reserved!  
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
